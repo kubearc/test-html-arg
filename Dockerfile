@@ -1,5 +1,5 @@
 # Start with Red Hat UBI httpd image
-FROM registry.access.redhat.com/ubi9/httpd-24:1-277
+FROM registry.access.redhat.com/ubi9/httpd-24
 
 # Build-time args
 ARG APP_VERSION=1.0.0
